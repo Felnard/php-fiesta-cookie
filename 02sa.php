@@ -26,7 +26,7 @@
         $average = 0;
 
         for($i = 0;$i < 10;$i++){
-            $average += $GLOBALS['teamrocket'][$i][5];
+            $average += $GLOBALS['teamrocket'][$i][6];
         }
         return $average/10;
     }
