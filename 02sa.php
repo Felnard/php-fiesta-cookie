@@ -30,5 +30,5 @@
         }
         return $average/10;
     }
-         echo 'The average attack is '.(ave_attack());
+         echo 'The average attack is '.ave_attack();
     ?>
