@@ -24,6 +24,7 @@
     function ave_attack(){
 
         $average = 0;
+
         for($i = 0;$i < 10;$i++){
             $average += $GLOBALS['teamrocket'][$i][6];
         }
